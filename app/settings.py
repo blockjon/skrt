@@ -1,8 +1,8 @@
-# Main event loop sleep interval 2 minutes
-SLEEP_INTERVAL = 120
+# Main event loop sleep interval 2 minutes and 20 seconds
+SLEEP_INTERVAL = 140
 
-# Window of random jitter
-POLL_DELAY_MAX_JITTER = 110
+# Window of random jitter. Setting to 10 seconds less than SLEEP_INTERVAL to let any stragglers complete.
+POLL_DELAY_MAX_JITTER = 130
 
 # Number of simulated users
 NUM_USERS = 11

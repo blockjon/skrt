@@ -1,8 +1,8 @@
-# Main event loop sleep interval 2.5 minutes
-SLEEP_INTERVAL = 150
+# Main event loop sleep interval 2 minutes
+SLEEP_INTERVAL = 120
 
 # Window of random jitter
-POLL_DELAY_MAX_JITTER = 120
+POLL_DELAY_MAX_JITTER = 110
 
 # Number of simulated users
 NUM_USERS = 11
